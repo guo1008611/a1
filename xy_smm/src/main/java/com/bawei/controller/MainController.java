@@ -38,6 +38,7 @@ public class MainController {
 	public String list(Model m,@RequestParam(defaultValue="1")int pageNum,@RequestParam(defaultValue="")String name) {
 		PageHelper.startPage(pageNum, 2);
 		List<Map> list =ms.list();
+		System.out.println("dsfsdfsdfs小焦");
 		PageInfo info=new PageInfo(list);
 		String url="&name="+name;
 		Page.fenye(m, info, url);
