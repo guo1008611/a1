@@ -22,6 +22,11 @@ import com.bawei.utils.Page;
 import com.bawei.utils.PageUtil;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+/**
+ * 
+ * @author Lenovo  焦某
+ *
+ */
 
 @Controller
 public class MainController {
