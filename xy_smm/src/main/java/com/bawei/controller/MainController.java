@@ -24,7 +24,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 /**
  * 
- * @author Lenovo  焦某水电费水电费水电费
+ * @author Lenovo  焦某水电费水电费水电费dfsdfs dfsdfsdfdfdsf发达的说法是
  *
  */
 
@@ -33,7 +33,7 @@ public class MainController {
 
 	@Autowired
 	private MainService ms;
-	
+	 
 	@RequestMapping("list")
 	public String list(Model m,@RequestParam(defaultValue="1")int pageNum,@RequestParam(defaultValue="")String name) {
 		PageHelper.startPage(pageNum, 2);
